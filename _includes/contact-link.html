@@ -4,6 +4,22 @@
       <li><a href="{{ site.data.settings.twitter }}"><i class="ion ion-logo-twitter"></i></a></li>
     {% else %} {% endif %}
 
+    {% if site.data.settings.information %}
+      <li><a href="{{ site.data.settings.information }}"><i class="ion ion-md-information-circle"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.github %}
+      <li><a href="{{ site.data.settings.github }}"><i class="ion ion-logo-github"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.mail %}
+      <li><a href="{{ site.data.settings.mail }}"><i class="ion ion-md-mail"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.school %}
+      <li><a href="{{ site.data.settings.school }}"><i class="ion ion-md-school"></i></a></li>
+    {% else %} {% endif %}
+
     {% if site.data.settings.facebook %}
       <li><a href="{{ site.data.settings.facebook }}"><i class="ion ion-logo-facebook"></i></a></li>
     {% else %} {% endif %}
